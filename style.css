@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 8px;
+  font-family: 'Nunito', sans-serif;
+  background-color: white;
+}
+
+
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 256px;
+  margin: 8px 0px;
+  background-color: #f4f4f4;
+  border-radius: 2px;
+}
+
+header {
+  width: calc(100% - 32px);
+  height: auto;
+  background-color: #f4f4f4;
+  padding: 8px 16px;
+}
+
+header h1 {
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.player {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #000000;
+  color: #f4f4f4;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 8px auto;
+  padding: 32px 0px;
+  border-radius: 2px;
+  cursor: pointer;
+
+}
+
+.player:nth-child(2) {
+  background-color: #323232;
+}
+
+.player>span {
+  display: block;
+  font-size: 14px;
+  color: #ffac41;
+}
+
+.score {
+  width: calc(100% - 32px);
+  height: 30vh;
+  padding: 0px 16px;
+  background-color: #ff1e56;
+  border-radius: 2px;
+  overflow-y: scroll;
+  padding-bottom: 8px;
+}
+
+.score h2 {
+  padding: 8px 0px;
+  position: sticky;
+  top: 0;
+  background-color: #ff1e56;
+  border-bottom: 2px solid #db1144;
+  font-size: 18px;
+  font-weight: 400;
+  color: #F4F4F4;
+}
+
+.scoring__list {
+  width: 100%;
+  height: auto;
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0 0px 32px;
+  list-style: none;
+  color: #f4f4f4;
+  font-size: 16px;
+
+}
