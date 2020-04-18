@@ -1,0 +1,28 @@
+{
+  "name": "ping-pong-score-counter",
+  "version": "1.0.0",
+  "description": "A small Javascript project",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server --port=8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonypaquay/ping-pong-score-counter.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "POO"
+  ],
+  "author": "Antony Paquay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonypaquay/ping-pong-score-counter/issues"
+  },
+  "homepage": "https://github.com/antonypaquay/ping-pong-score-counter#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
