@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
 body {
   position: relative;
   margin: 0;
   padding: 8px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   background-color: white;
 }
-
-
 
 .container {
   width: 100%;
@@ -42,14 +40,13 @@ header h1 {
   padding: 32px 0px;
   border-radius: 2px;
   cursor: pointer;
-
 }
 
 .player:nth-child(2) {
   background-color: #323232;
 }
 
-.player>span {
+.player > span {
   display: block;
   font-size: 14px;
   color: #ffac41;
@@ -73,7 +70,7 @@ header h1 {
   border-bottom: 2px solid #db1144;
   font-size: 18px;
   font-weight: 400;
-  color: #F4F4F4;
+  color: #f4f4f4;
 }
 
 .scoring__list {
@@ -85,5 +82,4 @@ header h1 {
   list-style: none;
   color: #f4f4f4;
   font-size: 16px;
-
 }

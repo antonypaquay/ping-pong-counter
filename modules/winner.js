@@ -1,5 +1,4 @@
 import launch from "./launch.js";
-import { players } from "./player.js";
 import saveResults from "./save-result.js";
 
 const CONTAINER = document.querySelector(".container");
